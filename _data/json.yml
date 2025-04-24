@@ -1,0 +1,48 @@
+- key: Name
+  value: Phil
+
+- key: Description
+  value:
+    - Vibecoder
+    - Plotter Artist
+    - Visual Artist
+  typed: true
+
+- key: Projects
+  value:
+    - value: Pixelsort - Pixel sorting art tool
+      url: https://github.com/phil-on-air/pixelsort
+    - value: Rotating Sphere - Interactive 3D visualization
+      url: https://github.com/phil-on-air/rotating-sphere
+    - value: Dual Sphere - Interconnected spheres animation
+      url: https://github.com/phil-on-air/dual-sphere
+    - value: Cosmic Spiral - Spiral pattern visualization
+      url: https://github.com/phil-on-air/cosmic-spiral
+    - value: Dissipating Sphere - Particle simulation
+      url: https://github.com/phil-on-air/dissipating-sphere
+
+- key: Demos
+  value:
+    - value: Pixelsort Demo
+      url: https://phil-on-air.github.io/pixelsort
+    - value: Rotating Sphere Demo
+      url: https://phil-on-air.github.io/rotating-sphere
+    - value: Dual Sphere Demo
+      url: https://phil-on-air.github.io/dual-sphere
+    - value: Cosmic Spiral Demo
+      url: https://phil-on-air.github.io/cosmic-spiral
+    - value: Dissipating Sphere Demo
+      url: https://phil-on-air.github.io/dissipating-sphere
+
+- key: Social
+  value:
+    - value: GitHub
+      url: https://github.com/phil-on-air
+
+- key: Contact
+  value:
+    - key: Email
+      value: io@iiooio.com
+      url: "mailto:io@iiooio.com"
+    - key: Location
+      value: Prague

@@ -1,0 +1,87 @@
+title: phil-on-air@github
+description: Awesome description for my new site here.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://phil-on-air.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Theme settings
+remote_theme: piazzai/hacked-jekyll
+permalink: /posts/:year/:month/:day/:title:output_ext
+
+# Social profiles
+github_username: phil-on-air
+# twitter_username: your_twitter_handle
+linkedin_username: philakhnazarov
+
+# Navigation
+navlinks:
+  - name: About
+    url: /about
+  - name: Posts
+    url: /posts
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: phil-on-air@github
+email: phil-on-air@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A showcase of interactive visual experiments and creative coding projects, exploring dynamic patterns, animations, and generative art through JavaScript and HTML.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://phil-on-air.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: pozorro
+github_username:  phil-on-air
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+color_bg: gray-9      # dark background
+color_punct: gray-4   # blue punctuation
+color_key: green-7     # cyan keys
+color_value: orange-8   # blue values
+color_hover: yellow-6   # cyan hover effect
