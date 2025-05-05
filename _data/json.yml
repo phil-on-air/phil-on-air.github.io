@@ -26,6 +26,8 @@
       url: https://github.com/phil-on-air/cosmic-spiral
     - value: Dissipating Sphere - Particle simulation
       url: https://github.com/phil-on-air/dissipating-sphere
+    - value: Image Shuffler - Interactive image block shuffler
+      url: https://github.com/phil-on-air/image-shuffler
 
 - key: Demos
   value:
@@ -39,6 +41,8 @@
       url: https://phil-on-air.github.io/cosmic-spiral
     - value: Dissipating Sphere Demo
       url: https://phil-on-air.github.io/dissipating-sphere
+    - value: Image Shuffler Demo
+      url: https://phil-on-air.github.io/image-shuffler
 
 - key: Social
   value:
