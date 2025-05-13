@@ -1,0 +1,23 @@
+/* Glitch effect styles */
+.glitch-link {
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.glitch-link:hover {
+  text-decoration: none;
+}
+
+/* Ensure the glitch effect container doesn't break layout */
+.powerglitch-container {
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Ensure text remains readable during glitch */
+.powerglitch-container * {
+  position: relative;
+  z-index: 1;
+}
