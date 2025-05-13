@@ -28,8 +28,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1.7'
-          bundler-cache: true
-          cache-version: 0
+          bundler: '2.4.22'
+          bundler-cache: false
       
       - name: Debug Ruby and Bundler
         run: |
@@ -39,7 +39,8 @@ jobs:
       
       - name: Install Dependencies
         run: |
-          bundle config path vendor/bundle
+          gem install bundler:2.4.22
+          bundle config set --local path 'vendor/bundle'
           bundle install --jobs 4 --retry 3
       
       - name: Build with Jekyll
