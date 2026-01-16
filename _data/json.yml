@@ -28,6 +28,9 @@
       url: https://github.com/phil-on-air/dissipating-sphere
     - value: Image Shuffler - Interactive image block shuffler
       url: https://github.com/phil-on-air/image-shuffler
+    - value: eSIM Report - Telecom news portal
+      url: https://www.esim.report
+
 
 - key: Demos
   value:
