@@ -16,7 +16,7 @@
 
 - key: Projects
   value:
-      - value: Worms of Beauty - Generative worms with video capture
+    - value: Worms of Beauty - Generative worms with video capture
       url: https://github.com/phil-on-air/worms_of_beauty
     - value: Pixelsort - Pixel sorting art tool
       url: https://github.com/phil-on-air/pixelsort
@@ -36,7 +36,7 @@
 
 - key: Demos
   value:
-      - value: Worms of Beauty Demo
+    - value: Worms of Beauty Demo
       url: https://phil-on-air.github.io/worms_of_beauty
     - value: Pixelsort Demo
       url: https://phil-on-air.github.io/pixelsort
